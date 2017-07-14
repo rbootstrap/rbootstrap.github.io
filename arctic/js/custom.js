@@ -1,8 +1,6 @@
-jQuery(document).ready(function($){
-	
+jQuery(document).ready(function($){	
 	"use strict";
-	
-	
+
 	/*==========================*/	
 	/********* Waypoints ********/	
 	/*==========================*/
@@ -44,7 +42,7 @@ jQuery(document).ready(function($){
 	/***** Smooth Scrolling *****/	
 	/*==========================*/
 	// Add smooth scrolling to all links in navbar + Section Links and the Slider
-	$(".navbar a, section a").on('click', function(event) {
+	$(".navbar a, section a.internal").on('click', function(event) {
 		// Prevent default anchor click behavior
 		event.preventDefault();
 	
