@@ -2,7 +2,7 @@ $("#contactForm").validator().on("submit", function (event) {
 	if (event.isDefaultPrevented()) {
 		// handle the invalid form...
 		formError();
-		submitMSG(false, "Please Fill in all the details. Could not send mail!");
+		submitMSG(false, "The form working is disabled here! It will work on your server with PHP enabled!");
 	} else {
 		// everything looks good!
         event.preventDefault();
@@ -21,7 +21,7 @@ function submitForm(){
 	$.ajax({
 		type: "POST",
 		//Set the Path to Your PHP File here
-		url: "https://rbootstrap.github.io/arctic/form-process.php",
+		url: "arctic/form-process.php",
 		data: "name=" + name + "&email=" + email + "&subject=" + subject + "&message=" + message,
         success : function(text){
 			if (text == "success"){
