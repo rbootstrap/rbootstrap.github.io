@@ -21,7 +21,7 @@ function submitForm(){
 	$.ajax({
 		type: "POST",
 		//Set the Path to Your PHP File here
-		url: "/arctic/form-process.php",
+		url: "https://rbootstrap.github.io/arctic/form-process.php",
 		data: "name=" + name + "&email=" + email + "&subject=" + subject + "&message=" + message,
         success : function(text){
 			if (text == "success"){
