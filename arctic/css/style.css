@@ -285,6 +285,15 @@ fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:hover{
 	border-color: #333333;
 }
 
+/* ================= Waypoints =================*/
+.os-animation{
+	opacity: 0;
+}
+.os-animation.animated{
+	opacity: 1;
+}
+
+
 /*=================================*/
 /*========== Navigation ===========*/
 /*=================================*/
