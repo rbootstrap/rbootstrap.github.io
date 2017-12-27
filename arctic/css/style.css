@@ -1,8 +1,8 @@
 /*===================================================*/
 /*****Arctic One Page Responsive Bootstrap Theme*****/
 /*==================================================*/
-import "http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300"
-import "http://fonts.googleapis.com/css?family=Courgette"
+@import "http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300"
+@import "http://fonts.googleapis.com/css?family=Courgette"
 /*=================================*/
 /*========== General Styles ========*/
 /*=================================*/
