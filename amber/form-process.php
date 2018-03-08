@@ -30,7 +30,7 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "receiver@yourhost.com";
+$EmailTo = "receiver@gmail.com";
 $Subject = "An Enquiry From Amber";
 
 // prepare email body text
@@ -49,7 +49,7 @@ $Body .= $message;
 $Body .= "\n";
 
 // send email
-$success = mail($EmailTo, $Subject, $Body, "From:email@host.com");
+$success = mail($EmailTo, $Subject, $Body, "From:contact@yourdomain.com");
 
 // redirect to success page
 if ($success && $errorMSG == ""){
