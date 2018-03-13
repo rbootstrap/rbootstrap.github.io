@@ -58,7 +58,6 @@ if (empty($_POST["message"])) {
     $message = $_POST["message"];
 }
 
-
 $EmailTo = "receiver@gmail.com";
 $Subject = "Book A Table";
 
