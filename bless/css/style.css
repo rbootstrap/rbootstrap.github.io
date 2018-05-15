@@ -1,0 +1,1009 @@
+/*=================================*/
+/*========== General Styles ========*/
+/*=================================*/
+*{ 
+	margin:0; 
+	padding:0; 
+}
+h1, h2, h3, h4, h5, h6, p, ul, 
+li, body, html, form, fieldset{ 
+	margin:0; 
+	padding:0; 
+	outline:none; 
+	border:0 
+}
+form, fieldset{ 
+	width:100% 
+}
+img{ 
+	border:0; 
+}
+a{ 
+	text-decoration:none; 
+	border:0; 
+	outline:0; 
+}
+ul{ 
+	list-style:none; 
+}
+a:focus, 
+input:focus, 
+textarea:focus, 
+*:focus { 
+	outline:0 !important; 
+	box-shadow:none !important; 
+	-webkit-box-shadow:none !important;
+	-moz-box-shadow:none !important;
+}
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, 
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+	-webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+.clearfix { 
+	clear:both; 
+	width:auto !important 
+}
+.nobg { 
+	background:transparent !important; 
+}
+html, body{
+	height:100%;
+}
+
+body
+{
+	background: #f8f8f8 none repeat scroll 0 0;
+    color: #333333;
+	font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;	
+	-webkit-font-smoothing: antialiased; 
+	-moz-osx-font-smoothing: grayscale; 
+}
+a, input, button,.fa:hover { 
+	text-decoration:none; 
+	color: inherit; 
+	outline:none; 
+	transition: all 0.3s ease-in; 
+	-moz-transition: all 0.3s ease-in; 
+	-o-transition: all 0.3s ease-in; 
+	-webkit-transition: all 0.3s ease-in; 
+	-ms-transition: all 0.3s ease-in; 
+}
+a:hover {  
+	text-decoration: none;
+}
+a:active { 
+	outline: none; 
+	text-decoration: none; 
+}
+a:focus { 
+	outline: none; 
+	outline-offset: 0px; 
+	text-decoration: none; 
+}
+::-webkit-input-placeholder{
+	color:#999; 
+	opacity: 1;
+} 
+::-moz-placeholder {
+	color:#999; 
+	opacity: 1;
+}
+:-moz-placeholder {
+	color:#999; 
+	opacity: 1;
+}
+:-ms-input-placeholder {
+	color:#999; 
+	opacity: 1;
+}
+:-o-input-placeholder {
+	color:#999; 
+	opacity: 1;
+}
+img { 
+	max-width: 100%; 
+}
+
+section p,section h4,section h5,section h6,section span
+{
+	margin-top:10px;	
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-family: "Dancing Script",cursive;
+}
+
+.h1, .h2, .h3, h1, h2, h3
+{
+	margin-top:0px;
+}
+
+h1
+{
+	font-size:45px;	
+}
+
+h2
+{
+	font-size:35px;		
+}
+
+h3
+{
+	font-size:30px;	
+}
+
+h4
+{
+	font-size:25px;		
+}
+
+h5
+{
+	font-size:18px;		
+}
+
+h6
+{
+	font-size:14px;		
+}
+
+a{
+	color:#fbb100;	
+}
+
+a:hover,a:active,a:focus
+{
+	color:#b78101;	
+}
+
+a,a:hover,a:link,a:active,a:focus
+{
+	text-decoration:none;	
+}
+
+.white
+{
+	color:#ffffff;	
+}
+
+.grey
+{
+	color:#333333;	
+}
+
+.padd_one
+{
+	padding:50px 0px;	
+}
+
+section
+{
+	padding:70px 0px;
+	overflow:hidden;
+}
+
+section.bgwhite
+{
+	background-color:#ffffff;
+   	box-shadow: 0 -4px 13px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mar-bot-20
+{
+	margin-bottom:20px;	
+}
+
+.mar-bot-30
+{
+	margin-bottom:30px;	
+}
+.mar-bot-40
+{
+	margin-bottom:40px;	
+}
+.mar-bot-50
+{
+	margin-bottom:50px;	
+}
+
+.padd-one
+{
+	padding:50px 0px;	
+}
+
+.no-padd
+{
+	padding:0px;	
+}
+
+.overlay-bg {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+/*======================================*/
+/*=============== Button ==============*/
+/*====================================*/
+.btn
+{
+	border-radius:10px;
+}
+
+.btn-primary{
+    background-color:#EA8FAC;
+	border:1px solid #EA8FAC;
+    color: #ffffff;
+	text-transform:uppercase;
+	font-size:14px;
+	line-height:20px;
+	font-weight:normal;
+	padding:10px 20px;
+	transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+}
+
+.btn-primary.disabled, .btn-primary:disabled
+{
+    background-color:#EA8FAC;
+	border:1px solid #EA8FAC;
+    color: #ffffff;	
+}
+
+.btn-primary:hover
+{
+    background-color:#ffffff;
+	border:1px solid #EA8FAC;
+	color:#EA8FAC;
+}
+
+.btn-primary.focus,
+.btn-primary:focus
+{
+	box-shadow:none;	
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	-o-box-shadow:none;
+}
+
+
+/*============ Preloader ===============*/
+
+.preloader{ 
+	position:fixed; 
+	left:0px; 
+	top:0px; 
+	width:100%; 
+	height:100%; 
+	z-index:999999; 
+	background-color:#ffffff; 
+	background-position:center center; 
+	background-repeat:no-repeat; 
+	background-image:url(../images/preloader.gif);
+}
+
+/*======================================*/
+/*========== Navigation Menu ==========*/
+/*====================================*/
+#mainNav
+{
+	background: rgba(255, 255, 255, 0) url("../images/menubg.png") repeat-x;
+	border: none;
+	padding: 3px 0 40px;
+}
+
+#mainNav .navbar-nav li a
+{
+	color:#333;
+	text-transform:uppercase;
+	padding: 14px 22px 14px 17px;
+	position:relative;
+}
+
+#mainNav .navbar-nav li a::after{
+	content:'\f004';
+	position:absolute;
+	left:0px;
+	top:1px;
+	line-height:50px;
+	font-size:12px;
+	color:#EA8FAC;
+	font-family:'FontAwesome';	
+}
+
+#mainNav .navbar-nav li a.active
+{
+	text-decoration:underline;	
+}
+
+.navbar-dark .navbar-toggler {
+    margin: 6px 12px;
+}
+
+.navbar-dark .navbar-toggler
+{
+	border-color:#333;
+	color:#333;	
+}
+
+.fa-bars
+{
+	font-size:25px;	
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+/*=================================*/
+/*========== Banner ===============*/
+/*=================================*/
+section#banner
+{
+	padding: 150px 0 100px;
+	background: rgba(255, 255, 255, 0) url("../images/banner/bannerbg.jpg") no-repeat fixed center top / cover;
+}
+
+.bride_groom
+{
+	background: rgba(255, 255, 255, 0) url("../images/banner/lace-pattern.png") no-repeat scroll center center / contain;
+	min-height:500px;	
+	padding-top: 140px;	
+}
+
+.wedding_date_banner
+{
+	margin-top:20px;	
+}
+
+/*=================================*/
+/*========== Titles ===============*/
+/*=================================*/
+.curly_pattern_left{
+  background: transparent url('../images/titles/curly_pattern_left.png') no-repeat left bottom;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  width: 115px;
+  height: 62px;
+  display: inline-block;
+  margin-bottom:-20px;
+}
+
+.section-title{
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.curly_pattern_right{
+  background: transparent url('../images/titles/curly_pattern_right.png') no-repeat right bottom;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  width: 115px;
+  height: 62px;
+  display: inline-block;
+  margin-bottom:-20px;
+}
+
+/*=================================*/
+/*========== Title_Two ===============*/
+/*=================================*/
+
+.section-title-two{
+	position:relative;
+	line-height:1.6em;
+}
+
+
+.section-title-two::after
+{
+    border-bottom: 3px solid #ea8fac;
+    bottom: 0;
+    content: "";
+    left: 47%;
+    position: absolute;
+    width: 50px;
+}
+/*=================================
+			Groom Bride 
+ =================================*/
+ #groom_bride
+ {
+ 	background-image: url(../images/team/heart.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+ }
+ 
+#groom_bride .gb_member {
+	text-align: center;
+	padding:0px 100px;
+}
+#groom_bride .gb_member h2 {
+	font-size: 24px;
+	line-height: 30px;
+	color: #4f4f4f;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+#groom_bride .gb_member span {
+	color: #ea8fac;
+	font-size: 13px;
+	line-height: 23px;
+	font-weight: bold;
+}
+#groom_bride .gb_member img {
+	box-shadow: inset 0 -10px 10px -10px rgba(0,0,0,.2);
+}
+#groom_bride .gb_member p {
+	font-size: 13px;
+	line-height: 26px;
+	color: #8c8c8c;
+}
+#groom_bride .gb_member .social {
+	margin-top:10px;
+}
+
+#groom_bride .gb_member .social li {
+	display: inline;
+}
+#groom_bride .gb_member .social li a {
+	background: url(../images/social-bg.png) no-repeat center center;
+	width: 45px;
+	height: 38px;
+	display: inline-block;
+	margin-right: 10px;
+	transition: all .3s ease;
+}
+#groom_bride .gb_member .social li a:hover {
+	background: url(../images/social-bg-hover.png) no-repeat center center;
+}
+#groom_bride .gb_member .social li a:hover .fa {
+	color: rgb(234,143,172);
+}
+#groom_bride .gb_member .social li .fa {
+	color: #e1e1e1;
+	font-size: 15px;
+	line-height: 38px;
+	text-align: center;
+	transition: all .3s ease;
+}
+.gb_member .gb_member_details {
+	border: 1px solid transparent;
+	padding-bottom: 20px;
+	transition: all .3s ease;
+	border-radius: 5px;
+}
+.gb_member .gb_member_details:hover{
+	border: 1px solid rgb(234,143,172);
+}
+.gb_member .gb_member_details .gb_image {
+	position: relative;
+	overflow: hidden;
+}
+.gb_member .gb_member_details img {
+	transition: all 0.8s ease 0s;
+}
+.gb_member .gb_member_details:hover .gb_image img {	
+  -moz-transform: scale(1.2) rotate(5deg);
+  -webkit-transform: scale(1.2) rotate(5deg);
+  -ms-transform: scale(1.2) rotate(5deg);
+  -o-transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(5deg);
+}
+.gb_member .gb_member_details .gb_image .overlay {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	top: 0;
+	left: 0px;
+	background: rgba(234,143,172,.75);
+	transition-property: center, opacity;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in;
+	transition-delay: initial;
+
+}
+.gb_member .gb_member_details:hover .gb_image .overlay {
+	opacity: 1;
+}
+
+/*=================================*/
+/*========== Counter Up ============*/
+/*=================================*/
+#counter_up
+{
+	position:relative;
+	background: rgba(0, 0, 0, 0) url("../images/misc/fact_counter_bg.jpg") no-repeat fixed center top / cover ;		
+}
+
+#counter_up .overlay-bg {
+	background-color:rgba(0, 0, 0, 0.7);
+}
+
+#counter_up .main-content-box h4.number_value{
+	background:	url("../images/misc/heart_bg.png") no-repeat center center;
+	height:64px;
+	line-height:58px;
+}
+
+/*=================================
+			Love Story 
+ =================================*/
+ 
+ .love_story_wrapper {
+	 position: relative;
+	 }
+ .love_story_wrapper::before {
+	 /* this is the vertical line */
+	 content: '';position: absolute;
+	 left: 50%;
+	 height: 100%;
+	 width: 3px;
+	 background: #b5b5b5;
+	 margin-left: -2px;
+ }
+ 
+.love_story_wrapper .ls_details span
+{
+	color: #ea8fac;
+	font-size: 14px;
+	line-height: 23px;
+	letter-spacing:2px;
+}
+.love_story_wrapper .ls_details p
+{
+	font-size: 13px;
+	line-height: 26px;
+	color: #8c8c8c;
+}
+
+.love_story_wrapper .ls_details
+{
+	padding:30px;
+	background-color:#ffffff;
+	border-radius: 5px;	
+}
+
+.love_story_wrapper .ls_details{
+	position: relative;
+}
+.love_story_wrapper .ls_item
+{
+	position:relative;	
+}
+
+.love_story_wrapper .ls_details:first-child:before {
+	position: absolute;
+	top: 45%;
+	right: -26px;
+	z-index: 9999;
+	content: ' ';
+	display: block;
+	width: 26px;
+	height: 36px;
+	background: url(../images/love_story/bg-arrow.png) no-repeat 0 0;
+}
+.love_story_wrapper .ls_details:last-child:before {
+	position: absolute;
+	top: 45%;
+	left: -26px;
+	z-index: 9999;
+	content: ' ';
+	display: block;
+	width: 26px;
+	height: 36px;
+	transform: rotate(-180deg);
+	background: url(../images/love_story/bg-arrow.png) no-repeat 0 0;
+}
+
+.love_story_wrapper .ls_item:before{
+	position: absolute;
+	bottom: -27px;
+	left: 50%;
+	margin-left:-23px;
+	z-index: 1;
+	content: ' ';
+	display: block;
+	width: 42px;
+	height: 38px;
+	content:'\f004';
+	line-height:50px;
+	font-size:45px;
+	color:#EA8FAC;
+	font-family:'FontAwesome';
+}
+
+.love_story_wrapper .ls_item .ls_image {
+	position: relative;
+	overflow: hidden;
+}
+
+.love_story_wrapper .ls_item .ls_image img {
+	transition: all 0.8s ease 0s;
+}
+
+.love_story_wrapper .ls_item:hover .ls_image img {	
+  -moz-transform: scale(1.2) rotate(5deg);
+  -webkit-transform: scale(1.2) rotate(5deg);
+  -ms-transform: scale(1.2) rotate(5deg);
+  -o-transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(5deg);
+}
+.love_story_wrapper .ls_item .ls_image .overlay {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	top: 0;
+	left: 0px;
+	background: rgba(234,143,172,.2);
+	transition-property: center, opacity;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in;
+	transition-delay: initial;
+
+}
+.love_story_wrapper .ls_item:hover .ls_image .overlay {
+	opacity: 1;
+}
+
+.ls_item .ls_details {
+	border: 1px solid transparent;
+	padding-bottom: 20px;
+	transition: all .3s ease;
+	border-radius: 5px;
+}
+.ls_item .ls_details:hover{
+	border: 1px solid rgb(234,143,172);
+}
+
+/*=================================
+			 Wedding Events 
+ =================================*/
+#wedd_events .event_block {
+	text-align: center;
+}
+#wedd_events .event_block h2 {
+	font-size: 24px;
+	line-height: 30px;
+	color: #4f4f4f;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+#wedd_events .event_block img {
+	box-shadow: inset 0 -10px 10px -10px rgba(0,0,0,.2);
+}
+#wedd_events .event_block p {
+	font-size: 13px;
+	line-height: 26px;
+	color: #8c8c8c;
+}
+#wedd_events .event_block .social li {
+	display: inline;
+}
+#wedd_events .event_block .social li a {
+	background: url(../images/social-bg.png) no-repeat center center;
+	width: 42px;
+	height: 38px;
+	display: inline-block;
+	margin-right: 10px;
+	transition: all .3s ease;
+}
+#wedd_events .event_block .social li a:hover {
+	background: url(../images/social-bg-hover.png) no-repeat center center;
+}
+#wedd_events .event_block .social li a:hover .fa {
+	color: rgb(255,109,109);
+}
+#wedd_events .event_block .social li .fa {
+	color: #E2E2E2;
+	font-size: 15px;
+	line-height: 35px;
+	text-align: center;
+	transition: all .3s ease;
+}
+.event_block .event_block_details {
+	border: 1px solid #e2e2e2;
+	padding: 20px;
+	transition: all .3s ease;
+	border-radius: 5px;
+}
+.event_block .event_block_details:hover{
+	border: 1px solid rgb(234,143,172);
+}
+
+
+.event_block .event_block_details .ceremony-date-time i,
+.event_block .event_block_details address i
+{
+	color: #EA8FAC;
+	font-size: 13px;
+	padding-right:5px;
+}
+
+.event_block .event_block_details .ceremony-date-time span,
+.event_block .event_block_details address span
+{
+	color: #333333;
+	font-size: 12px;
+	padding-right:15px;
+	font-weight:normal;
+}
+
+
+.event_block .event_block_details .event_image {
+	position: relative;
+	overflow: hidden;
+}
+.event_block .event_block_details img {
+	transition: all 0.8s ease 0s;
+}
+.event_block .event_block_details:hover .event_image img {	
+  -moz-transform: scale(1.1) rotate(10deg);
+  -webkit-transform: scale(1.1) rotate(10deg);
+  -ms-transform: scale(1.1) rotate(10deg);
+  -o-transform: scale(1.1) rotate(10deg);
+  transform: scale(1.1) rotate(10deg);
+}
+.event_block .event_block_details .event_image .overlay {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	top: 0;
+	left: 0px;
+	background: rgba(234,143,172,.75);
+	transition-property: left, opacity;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in;
+	transition-delay: initial;
+
+}
+.event_block .event_block_details:hover .event_image .overlay {
+	opacity: 1;
+}
+
+/*=================================
+			 Our Team 
+ =================================*/
+.team .team_member {
+	text-align: center;
+}
+.team .team_member h2 {
+	font-size: 24px;
+	line-height: 30px;
+	color: #4f4f4f;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+.team .team_member span {
+	color: #ff6d6d;
+	font-size: 13px;
+	line-height: 30px;
+	font-weight: bold;
+}
+.team .team_member img {
+	box-shadow: inset 0 -10px 10px -10px rgba(0,0,0,.2);
+}
+.team .team_member p {
+	font-size: 13px;
+	line-height: 26px;
+	color: #8c8c8c;
+}
+.team .team_member .social li {
+	display: inline;
+}
+.team .team_member .social li a {
+	background: url(../images/social-bg.png) no-repeat center center;
+	width: 45px;
+	height: 38px;
+	display: inline-block;
+	margin-right: 10px;
+	transition: all .3s ease;
+	margin-top:10px;
+}
+.team .team_member .social li a:hover {
+	background: url(../images/social-bg-hover.png) no-repeat center center;
+}
+.team .team_member .social li a:hover .fa {
+	color: #ea8fac;
+}
+.team .team_member .social li .fa {
+	color: #E2E2E2;
+	font-size: 15px;
+	line-height: 35px;
+	text-align: center;
+	transition: all .3s ease;
+}
+.team_member .team_member_details {
+	border: 1px solid transparent;
+	padding-bottom: 20px;
+	transition: all .3s ease;
+	border-radius: 5px;
+}
+.team_member .team_member_details:hover{
+	border: 1px solid #ea8fac;
+}
+.team_member .team_member_details .team_image {
+	position: relative;
+	overflow: hidden;
+}
+.team_member .team_member_details img {
+	transition: all 0.8s ease 0s;
+}
+.team_member .team_member_details:hover .team_image img {	
+  -moz-transform: scale(1.1) rotate(10deg);
+  -webkit-transform: scale(1.1) rotate(10deg);
+  -ms-transform: scale(1.1) rotate(10deg);
+  -o-transform: scale(1.1) rotate(10deg);
+  transform: scale(1.1) rotate(10deg);
+}
+.team_member .team_member_details .team_image .overlay {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	top: 0;
+	left: 0px;
+	background: rgba(255,109,109,.75);
+	transition-property: left, opacity;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in;
+	transition-delay: initial;
+
+}
+.team_member .team_member_details:hover .team_image .overlay {
+	opacity: 1;
+}
+
+/*=================================*/
+/*========== R.S.V.P ============*/
+/*=================================*/
+section#rsvp
+{
+	position:relative;
+	background: rgba(0, 0, 0, 0) url("../images/misc/rsvp_bg.jpg") no-repeat fixed center top / cover ;		
+}
+
+#rsvp .overlay-bg {
+	background-color:rgba(0,0,0,0.6);	
+}
+
+.form-control {
+	border: none;
+	border-bottom: 3px solid #ededed;
+    border-radius: 0;
+    box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	background-color: transparent;
+	color: #ffffff!important;
+    outline: medium none;
+    padding: 5px 12px;
+	font-size:14px;
+	height:40px;
+	transition: all .3s ease;
+}
+.form-control option
+{
+	background-color:#333333;
+	padding:5px;
+}
+
+.form-control:focus,.form-control:hover{
+	border-color:#EA8FAC;	
+	background-color: transparent;
+}
+
+.placeholder{
+	color:#ffffff;
+}
+
+.has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, 
+.has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, 
+.has-error.radio label, .has-error.radio-inline label
+{
+	color: #e2e0e1;
+	font-size: 14px;
+    font-weight: 400;	
+}
+
+.text-success{
+	color: #ffffff!important;
+}
+.text-danger{
+	color:#f99292;
+}
+
+.btn-default.disabled.focus, .btn-default.disabled:focus, .btn-default.disabled:hover, .btn-default.focus[disabled], 
+.btn-default[disabled]:focus, .btn-default[disabled]:hover, fieldset[disabled] .btn-default.focus, 
+fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:hover{
+	background-color:#e56196;
+	border-color:#e56196;	
+}
+
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn{
+	cursor:pointer;
+	pointer-events:all;
+	opacity:1;
+}
+
+.offset-lg-2
+{
+	margin-left:0%;
+}
+
+/*=================================
+		Thank You
+ =================================*/
+
+#thank_you {
+	text-align: center;
+}
+#thank_you .heart-block {
+	text-align: center;
+	margin:0 auto;
+}
+
+#thank_you .heart-block .image-wrap {
+	background: url(../images/heart_bg.png) no-repeat scroll center center / contain;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	overflow: hidden;
+	max-width: 400px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+}
+#thank_you .heart-block .image-wrap img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: -1;
+	overflow: hidden;
+}
+
+/*=================================*/
+/*=========== Back To Top =========*/
+/*=================================*/
+.back-to-top { 
+	position: fixed; 
+	bottom: 6px; 
+	right: 6px; 
+	text-decoration: none; 
+	color: #000; 
+	background:transparent none repeat scroll 0 0;
+	border: 1px solid #000;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	font-size: 20px; 
+	padding:10px 15px; 
+	display: none; 
+	z-index:9999;
+}
+.back-to-top:hover ,.back-to-top:active,.back-to-top:focus{ 
+	background:transparent;
+	color:#000;
+	border: 1px solid #000; 
+}
