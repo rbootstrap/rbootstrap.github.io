@@ -36,8 +36,8 @@ if (empty($_POST["message"])) {
     $message = $_POST["message"];
 }
 
-//Set the email Id & Subject here
-$EmailTo = "receiver@yourhost.com";
+//Set the Receiver Email ID and the Subject Here'.
+$EmailTo = "receiver@gmail.com";
 $Subject = "An Enquiry From Asper";
 
 // prepare email body text
@@ -58,8 +58,8 @@ $Body .= "Message: ";
 $Body .= $message;
 $Body .= "\n";
 
-// Set the From Email Address Here
-$success = mail($EmailTo, $Subject, $Body, "From:email@host.com");
+//Set the From Email Address
+$success = mail($EmailTo, $Subject, $Body, "From:contact@yourdomain.com");
 
 // redirect to success page
 if ($success && $errorMSG == ""){

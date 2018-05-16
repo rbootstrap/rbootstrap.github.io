@@ -357,7 +357,6 @@ header#header .social-links a:hover
 	background-image:url(../images/preloader.gif);
 }
 
-
 /*=================================*/
 /*========== Navigation ===========*/
 /*=================================*/
@@ -416,8 +415,6 @@ header#header .social-links a:hover
 	font-size:14px;
 }
 
-
-
 /*=================================*/
 /*========== Banner ===============*/
 /*=================================*/
@@ -460,7 +457,6 @@ section#banner{
 /*============================*/
 /*==========Section Title======*/
 /*============================*/
-
 .section-title h4
 {
 	position:relative;	
