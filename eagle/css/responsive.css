@@ -1,0 +1,97 @@
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 767px){
+
+}
+
+@media handheld, only screen and (max-width: 480px) {
+	
+	/*========= Top Header=======*/
+	.header-top .top-left
+	{
+		width:100%;	
+		text-align:center;
+	}
+	
+	.header-top .top-right
+	{
+		width:100%;	
+		text-align:center;
+	}
+	
+	.header-top .links-nav li{
+		margin-right:0px;
+		float:none;
+	}
+		
+	/*========= Slider ==========*/
+	.butter-slide-content p{
+		display:none;
+	}
+	
+	/*========= Title ==========*/
+	h3.block-title, h3.block-title-two
+	{
+		font-size:20px;	
+	}
+}
+
+@media only screen and (max-width: 991px) 
+{
+	.navbar-dark .navbar-nav .nav-link
+	{
+		padding:3px;	
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 4000px) {
+	/* ================= Navigation ================= */
+	/* ======= Creates Dropdown menu on hover ======= */
+	.navbar-nav > li > .dropdown-menu{
+		margin-top: 40px;
+		display: table;
+		padding: 0px;
+		border:none;
+		border-top: 3px solid #000000;
+		border-radius: 0px;
+		left: 0;
+		opacity: 0;
+		visibility: hidden;
+		-moz-transition: all .5s ease-in-out;
+		-ms-transition: all .5s ease-in-out;
+		-o-transition: all .5s ease-in-out;
+		-webkit-transition: all .5s ease-in-out;
+		transition: all .5s ease-in-out;
+	}
+	.navbar-nav > li:hover > .dropdown-menu {	
+		margin-top: 10px;
+		opacity: 1;
+		visibility: visible;
+		-moz-transition: all .5s ease-in-out;
+		-ms-transition: all .5s ease-in-out;
+		-o-transition: all .5s ease-in-out;
+		-webkit-transition: all .5s ease-in-out;
+		transition: all .5s ease-in-out;
+		box-shadow: 0 5px 13px 6px rgba(0, 0, 0, 0.1);
+		-webkit-box-shadow:0 5px 13px 6px rgba(0, 0, 0, 0.1);
+		-moz-box-shadow:0 5px 13px 6px rgba(0, 0, 0, 0.1);
+	}
+	.dropdown-menu > li > a {	
+		display: block;
+		padding: 10px 0px 10px 15px;
+		clear: both;
+		font-weight: 400;
+		line-height: 21px;
+		color: #fff;
+		white-space: nowrap;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+		font-size: 13px;
+		letter-spacing: 1px;
+	}
+	.dropdown-menu > li:last-child > a {	
+		border-bottom: none;
+	}
+}
+
